@@ -7,6 +7,7 @@ import { FaLink, FaPaintBrush, FaDribbble } from "../components/Icons";
 import * as styles from "./Design.module.css";
 
 const Design = () => {
+  /*
   const data = useStaticQuery(graphql`
     {
       allDribbbleShot(sort: { fields: [published], order: DESC }, limit: 10) {
@@ -69,6 +70,8 @@ const Design = () => {
       />
     </section>
   );
+  */
+  let data;
 };
 
 export default Design;
