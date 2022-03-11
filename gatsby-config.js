@@ -15,16 +15,16 @@ const gatsbyRequiredRules = path.join(
 
 module.exports = {
   siteMetadata: {
-    title: `Amruth Pillai's Resume on the Web`,
+    title: `Zhi Han`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
-    author: `Amruth Pillai`,
-    siteUrl: `https://amruthpillai.com`,
+    author: `Zhihua Han`,
+    siteUrl: `https://zhiihan.com`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://amruthpillai.com`,
+        siteUrl: `https://zhiihan.com`,
       },
     },
     {
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://amruthpillai.com`,
-        sitemap: `https://amruthpillai.com/sitemap.xml`,
+        host: `https://zhiihan.com`,
+        sitemap: `https://zhiihan.com/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Amruth Pillai's Resume on the Web`,
-        short_name: `Resume on the Web`,
+        name: `Personal Website of Zhi Han`,
+        short_name: `Zhi Han`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
