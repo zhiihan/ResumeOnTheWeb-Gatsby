@@ -34,7 +34,6 @@ const sections = [
   { id: "philanthropy", title: "Philanthropy", icon: FaBoxOpen },
   { id: "photography", title: "Photography", icon: AiFillInstagram },
   { id: "music", title: "Music", icon: MdMusicNote },
-  { id: "design", title: "Design", icon: FaPaintBrush },
   { id: "resume", title: "Resume", icon: IoIosDocument },
   { id: "contact", title: "Contact", icon: IoIosPaperPlane },
   { id: "footer", title: "About RotW", icon: FaInfoCircle },
