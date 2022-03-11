@@ -2,7 +2,16 @@
 
 // Gatsby's required rules
 {
-  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "requireConfigFile": false
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
     "no-anonymous-exports-page-templates": "warn",
     "limited-exports-page-templates": "warn"

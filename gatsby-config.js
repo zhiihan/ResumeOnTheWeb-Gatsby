@@ -10,7 +10,7 @@ const gatsbyRequiredRules = path.join(
   "gatsby",
   "dist",
   "utils",
-  "eslint-rules"
+  "eslint-rules",
 );
 
 module.exports = {
@@ -42,7 +42,6 @@ module.exports = {
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
-    `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
