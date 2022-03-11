@@ -4,7 +4,6 @@ import Footer from "../sections/Footer";
 import Wrapper from "../components/Wrapper";
 import AboutMe from "../sections/AboutMe";
 import Achievements from "../sections/Achievements";
-import Blog from "../sections/Blog";
 import Certifications from "../sections/Certifications";
 import Contact from "../sections/Contact";
 import Education from "../sections/Education";
@@ -30,7 +29,6 @@ const IndexPage = () => {
         </div>
         <Skills />
         <Projects />
-        <Blog />
         <Languages />
         <div className={styles.achievementsCertificationPhilanthropy}>
           <div>

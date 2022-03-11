@@ -19,7 +19,7 @@ const Education = () => {
             period
             icon {
               childImageSharp {
-                gatsbyImageData(width: 32, height: 32, layout: FIXED)
+                gatsbyImageData(height: 32, layout: FIXED)
               }
             }
           }

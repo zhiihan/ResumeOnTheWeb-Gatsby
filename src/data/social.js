@@ -1,6 +1,4 @@
 import {
-  FaDev,
-  FaDribbble,
   FaFacebookF,
   FaGithubAlt,
   FaInstagram,
@@ -12,43 +10,31 @@ const social = [
   {
     title: "Instagram",
     icon: FaInstagram,
-    link: "https://pillai.xyz/instagram",
+    link: "https://www.instagram.com/zhii_han/",
     class: "bg-instagram",
   },
   {
     title: "LinkedIn",
     icon: FaLinkedinIn,
-    link: "https://pillai.xyz/linkedin",
+    link: "https://www.linkedin.com/in/zhii-han/",
     class: "bg-linkedin",
   },
   {
     title: "GitHub",
     icon: FaGithubAlt,
-    link: "https://pillai.xyz/github",
+    link: "https://github.com/zhiihan",
     class: "bg-github",
-  },
-  {
-    title: "Dribbble",
-    icon: FaDribbble,
-    link: "https://pillai.xyz/dribbble",
-    class: "bg-dribbble",
-  },
-  {
-    title: "DEV Community",
-    icon: FaDev,
-    link: "https://pillai.xyz/dev",
-    class: "bg-dev",
   },
   {
     title: "Facebook",
     icon: FaFacebookF,
-    link: "https://pillai.xyz/facebook",
+    link: "https://www.facebook.com/zhiihua",
     class: "bg-facebook",
   },
   {
     title: "Twitter",
     icon: FaTwitter,
-    link: "https://pillai.xyz/twitter",
+    link: "https://twitter.com/zhii_han",
     class: "bg-twitter",
   },
 ];
