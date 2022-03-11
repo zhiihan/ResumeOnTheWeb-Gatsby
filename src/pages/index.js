@@ -7,7 +7,6 @@ import Achievements from "../sections/Achievements";
 import Blog from "../sections/Blog";
 import Certifications from "../sections/Certifications";
 import Contact from "../sections/Contact";
-import Design from "../sections/Design";
 import Education from "../sections/Education";
 import Hero from "../sections/Hero";
 import Languages from "../sections/Languages";
@@ -46,7 +45,6 @@ const IndexPage = () => {
         </div>
         <Photography />
         <Music />
-        <Design />
         <Resume />
         <Contact />
         <Footer />
