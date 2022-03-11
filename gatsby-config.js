@@ -1,30 +1,18 @@
 const path = require(`path`);
 require(`dotenv`).config({ path: `.env` });
 
-// Get paths of Gatsby's required rules, which as of writing is located at:
-// https://github.com/gatsbyjs/gatsby/tree/fbfe3f63dec23d279a27b54b4057dd611dce74bb/packages/
-// gatsby/src/utils/eslint-rules
-const gatsbyRequiredRules = path.join(
-  process.cwd(),
-  "node_modules",
-  "gatsby",
-  "dist",
-  "utils",
-  "eslint-rules"
-);
-
 module.exports = {
   siteMetadata: {
-    title: `Amruth Pillai's Resume on the Web`,
+    title: `Zhi's Personal Space `,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
-    author: `Amruth Pillai`,
-    siteUrl: `https://amruthpillai.com`,
+    author: `Zhi Han`,
+    siteUrl: `https://zhiihan.com`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://amruthpillai.com`,
+        siteUrl: `https://zhiihan.com`,
       },
     },
     {
@@ -37,18 +25,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://amruthpillai.com`,
-        sitemap: `https://amruthpillai.com/sitemap.xml`,
+        host: `https://zhiihan.com`,
+        sitemap: `https://zhiihan.com/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
-    `gatsby-plugin-eslint`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Amruth Pillai's Resume on the Web`,
-        short_name: `Resume on the Web`,
+        name: `Zhi's Personal Space`,
+        short_name: `Zhi Han`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
@@ -68,7 +55,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Fira Sans:400,600`],
+        fonts: [`Open Sans:400,600`],
         display: `swap`,
       },
     },
@@ -81,12 +68,6 @@ module.exports = {
       options: {
         name: `images`,
         path: path.join(__dirname, `src`, `images`),
-      },
-    },
-    {
-      resolve: `gatsby-source-dev`,
-      options: {
-        username: `amruthpillai`,
       },
     },
     `gatsby-transformer-remark`,
@@ -109,19 +90,6 @@ module.exports = {
       resolve: `gatsby-source-instagram-all`,
       options: {
         access_token: process.env.INSTAGRAM_TOKEN,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-eslint",
-      options: {
-        // Gatsby required rules directory
-        rulePaths: [gatsbyRequiredRules],
-        // Default settings that may be ommitted or customized
-        stages: ["develop"],
-        extensions: ["js", "jsx", "ts", "tsx"],
-        exclude: ["node_modules", "bower_components", ".cache", "public"],
-        // Any additional eslint-webpack-plugin options below
-        // ...
       },
     },
   ],
