@@ -3,16 +3,16 @@ require(`dotenv`).config({ path: `.env` });
 
 module.exports = {
   siteMetadata: {
-    title: `Personal Website of Zhi Han`,
+    title: `Amruth Pillai's Resume on the Web`,
     description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
-    author: `Zhi Han`,
-    siteUrl: `https://zhiihan.com`,
+    author: `Amruth Pillai`,
+    siteUrl: `https://amruthpillai.com`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://zhiihan.com`,
+        siteUrl: `https://amruthpillai.com`,
       },
     },
     {
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: `https://zhiihan.com`,
-        sitemap: `https://zhiihan.com/sitemap.xml`,
+        host: `https://amruthpillai.com`,
+        sitemap: `https://amruthpillai.com/sitemap.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
@@ -35,8 +35,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Personal Website of Zhi Han`,
-        short_name: `Zhi Han`,
+        name: `Amruth Pillai's Resume on the Web`,
+        short_name: `Resume on the Web`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
@@ -61,6 +61,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-dribbble`,
+      options: {
+        access_token: process.env.DRIBBBLE_TOKEN,
+      },
+    },
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
