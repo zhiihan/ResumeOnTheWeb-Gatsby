@@ -13,16 +13,17 @@ const Subtitle = ({ onDone }) => (
     <code className="w-full text-sm leading-loose">
       <div>
         <span className="text-blue-600">const</span>{" "}
-        <span className="text-orange-400">amruth</span>:{" "}
+        <span className="text-orange-400">zhi</span>:{" "}
         <span className="text-orange-400">Array</span>&lt;
         <span className="text-green-400">Ingredient</span>&gt;{" "}
         <span className="text-blue-600">=</span> [
       </div>
       <div className="lg:pl-8">
-        <span className="text-red-500">Designer</span>,{" "}
+        <span className="text-red-500">Quantum Physicist</span>,{" "}
+        <span className="text-red-500">Mathematician</span>,{" "}
         <span className="text-red-500">Developer</span>,{" "}
         <span className="text-red-500">Photographer</span>,{" "}
-        <span className="text-red-500">Writer</span>,{" "}
+        <span className="text-red-500">Pianist</span>,{" "}
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">Sugar</span>,{" "}

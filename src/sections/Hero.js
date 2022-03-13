@@ -133,14 +133,14 @@ const Hero = () => {
         </div>
         <div className="col-span-3 text-center lg:text-left">
           <GatsbyImage
-            alt="Amruth Pillai"
+            alt="Zhi Han"
             className="max-w-lg max-h-32 mx-auto lg:mx-0"
             image={data.logo.childImageSharp.gatsbyImageData}
           />
 
           <h1 className="sr-only">
-            Amruth Pillai&apos;s Resume on the Web <br />
-            Designer, Developer, Photographer, Writer from Bangalore, India
+            Zhi Han&apos;s Personal Space <br />
+            Quantum Physicist, Developer, Photographer, Pianist.
           </h1>
 
           <div className="text-center lg:text-left flex flex-col items-center lg:ml-4 lg:items-start">
