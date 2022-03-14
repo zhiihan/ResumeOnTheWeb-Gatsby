@@ -9,7 +9,7 @@ import "katex/dist/katex.min.css";
 const AboutMe = () => {
   const data = useStaticQuery(graphql`
     {
-      photo: file(relativePath: { eq: "about-me/selfie-boy.png" }) {
+      photo: file(relativePath: { eq: "about-me/me.jpg" }) {
         childImageSharp {
           gatsbyImageData(width: 512, layout: CONSTRAINED)
         }
