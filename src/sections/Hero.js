@@ -99,7 +99,7 @@ const Hero = () => {
     scene.add(spotLight);
 
     // Controls
-    const controls = new OrbitControls(camera, document.getElementById("hero"));
+    const controls = new OrbitControls(camera, document.getElementById("cube"));
     controls.enableZoom = false;
     controls.enablePan = false;
 
@@ -125,7 +125,10 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center container">
-      <div className="w-full grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
+      <div
+        className="w-full grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0"
+        id="cube"
+      >
         <div ref={parallaxRef} className="col-span-2">
           <div className="max-w-lg mx-auto" data-depth="0.4">
             <canvas id="photograph" />
