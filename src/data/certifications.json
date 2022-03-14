@@ -1,22 +1,26 @@
 [
   {
-    "title": "Applied CS with Android",
-    "subtitle": "Google"
+    "title": "Quantum Computing Roadmapping Workshop",
+    "subtitle": "Quantum BC"
   },
   {
-    "title": "The Complete React Native and Redux Course",
-    "subtitle": "Udemy"
+    "title": "Cornerstone Models of Quantum Computing",
+    "subtitle": "TRIUMF"
   },
   {
-    "title": "Data Science & Machine Learning using Python",
-    "subtitle": "Udemy"
+    "title": "Superconducting circuits and qubits",
+    "subtitle": "Quantum BC/CMC"
   },
   {
-    "title": "Dynamic Skills Integrated Program",
-    "subtitle": "DSI - Center for Innovation and Leadership"
+    "title": "Virtual Summer School",
+    "subtitle": "QSciTech"
   },
   {
-    "title": "Java - Level 1 & 2",
-    "subtitle": "Cambridge Certification Authority"
+    "title": "Deep Learning and Reinforcement Learning Summer School 2019",
+    "subtitle": "AMII Institute"
+  },
+  {
+    "title": "Western Summer School in Algebra",
+    "subtitle": "University of Alberta"
   }
 ]
