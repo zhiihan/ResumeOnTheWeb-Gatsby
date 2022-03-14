@@ -21,7 +21,7 @@ const sections = [
   { id: "about-me", title: "About Me", icon: MdPerson },
   { id: "work", title: "Work", icon: MdWork },
   { id: "education", title: "Education", icon: MdSchool },
-  { id: "skills", title: "Skills", icon: GoTools },
+  { id: "skills", title: "Computer Skills", icon: GoTools },
   { id: "projects", title: "Projects", icon: FaDev },
   { id: "blog", title: "Blog", icon: IoIosJournal },
   { id: "languages", title: "Languages", icon: FaSignLanguage },
