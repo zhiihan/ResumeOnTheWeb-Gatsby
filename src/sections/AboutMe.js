@@ -4,6 +4,8 @@ import React from "react";
 import Heading from "../components/Heading";
 import { MdPerson } from "../components/Icons";
 
+import "katex/dist/katex.min.css";
+
 const AboutMe = () => {
   const data = useStaticQuery(graphql`
     {
