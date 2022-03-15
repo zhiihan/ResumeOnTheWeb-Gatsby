@@ -31,7 +31,7 @@ const sections = [
     title: "Certifications",
     icon: AiFillSafetyCertificate,
   },
-  { id: "philanthropy", title: "Philanthropy", icon: FaBoxOpen },
+  { id: "leadership", title: "Leadership", icon: FaBoxOpen },
   { id: "photography", title: "Photography", icon: AiFillInstagram },
   { id: "music", title: "Music", icon: MdMusicNote },
   { id: "resume", title: "Resume", icon: IoIosDocument },

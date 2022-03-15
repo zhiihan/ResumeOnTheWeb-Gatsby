@@ -4,10 +4,10 @@ import Heading from "../components/Heading";
 import { FaAngleRight, FaBoxOpen } from "../components/Icons";
 import * as styles from "./Meta.module.css";
 
-const Philanthropy = () => {
+const Leadership = () => {
   const data = useStaticQuery(graphql`
     {
-      allPhilanthropyJson {
+      allLeadershipJson {
         edges {
           node {
             id
@@ -20,10 +20,10 @@ const Philanthropy = () => {
   `);
 
   return (
-    <section id="philanthropy">
-      <Heading icon={FaBoxOpen} title="Philanthropy" />
+    <section id="leadership">
+      <Heading icon={FaBoxOpen} title="Leadership" />
 
-      {data.allPhilanthropyJson.edges.map(({ node }, index) => (
+      {data.allLeadershipJson.edges.map(({ node }, index) => (
         <div
           key={node.id}
           className={`${styles.container} wow fadeInDown`}
@@ -44,4 +44,4 @@ const Philanthropy = () => {
   );
 };
 
-export default Philanthropy;
+export default Leadership;

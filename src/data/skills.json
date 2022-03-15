@@ -17,7 +17,7 @@
   {
     "icon": "../images/skills/react.png",
     "name": "Frontend Javascript Frameworks",
-    "tech": "ReactJS/GatsbyJS"
+    "tech": "ReactJS/GatsbyJS/GraphQL"
   },
   {
     "icon": "../images/skills/nodejs.png",

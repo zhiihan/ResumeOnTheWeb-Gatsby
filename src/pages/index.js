@@ -10,7 +10,7 @@ import Education from "../sections/Education";
 import Hero from "../sections/Hero";
 import Languages from "../sections/Languages";
 import Music from "../sections/Music";
-import Philanthropy from "../sections/Philanthropy";
+import Leadership from "../sections/Leadership";
 import Photography from "../sections/Photography";
 import Projects from "../sections/Projects";
 import Resume from "../sections/Resume";
@@ -30,7 +30,7 @@ const IndexPage = () => {
         <Skills />
         <Projects />
         <Languages />
-        <div className={styles.achievementsCertificationPhilanthropy}>
+        <div className={styles.achievementsCertificationLeadership}>
           <div>
             <Achievements />
           </div>
@@ -38,7 +38,7 @@ const IndexPage = () => {
             <Certifications />
           </div>
           <div>
-            <Philanthropy />
+            <Leadership />
           </div>
         </div>
         <Photography />
