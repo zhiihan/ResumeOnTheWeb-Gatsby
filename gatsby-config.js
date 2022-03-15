@@ -16,9 +16,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingIds: [
+          process.env.GA_TRACKING_ID, // Google Analytics / GA
+          process.env.GA_UA_ID,
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     `gatsby-plugin-sitemap`,
