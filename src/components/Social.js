@@ -1,4 +1,4 @@
-import { OutboundLink } from "gatsby-plugin-google-analytics";
+import { OutboundLink } from "gatsby-plugin-google-gtag";
 import React from "react";
 import social from "../data/social";
 import * as styles from "./Social.module.css";
