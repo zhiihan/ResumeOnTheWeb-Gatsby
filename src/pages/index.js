@@ -45,6 +45,7 @@ const IndexPage = () => {
         <Music />
         <Resume />
         <Contact />
+        <Footer />
       </div>
     </Wrapper>
   );
