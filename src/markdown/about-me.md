@@ -4,7 +4,7 @@ id: "about-me"
 
 Hey there!
 
-I'm Zhi Hua Han (韩志华), and this is my website. Currently, I am an MSc Physics student researching quantum computing at Simon Fraser University, in Kero Lau's research group. This website showcases my many interests including physics/math, piano, photography, East Asian culture, language learning, and travelling.
+I'm Zhi Hua Han (韩志华), and this is my website. Currently, I am an MSc Physics student researching quantum computing at Simon Fraser University, in Kero Lau's research group. This website showcases my many interests including physics/math, piano, photography, game development, East Asian culture, language learning, and travelling.
 
 My life philosophy is that you should become as powerful as possible by levelling up like in video games. Often times you'll meet enemies along the way, but defeating a boss unlocks new rewards, abilities and skills. I believe this concept extends to real life.
 
