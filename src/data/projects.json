@@ -11,31 +11,31 @@
     "image": "../images/projects/avalanche.jpg",
     "title": "Avalanche!",
     "description": "Dodge the falling cars, and survive as long as you can! Made with Unity3D.",
-    "tags": ["unity3d", "game", "csharp", "WebGL"],
+    "tags": ["unity3d", "gamedev", "csharp", "WebGL", "opensource"],
     "website": "https://pixellation.itch.io/avalanche",
     "github": "https://github.com/zhiihan/Avalanche"
   },
   {
-    "image": "../images/projects/be-thrifty-today.png",
-    "title": "Be Thrifty Today",
-    "description": "Be Thrifty Today is a simple and secure money management app that helps you track your incomes and expenses.",
-    "tags": ["opensource", "appdev", "flutter", "firebase", "android"],
-    "website": "https://bethrifty.today/",
-    "github": "https://github.com/AmruthPillai/BeThriftyToday"
+    "image": "../images/projects/tanks.jpg",
+    "title": "Tanks!",
+    "description": "Tank game. Can you clear all 10 levels? Made with Godot Engine.",
+    "tags": ["godotengine", "gamedev", "WebGL", "opensource"],
+    "website": "https://pixellation.itch.io/tanks",
+    "github": "https://github.com/zhiihan/Tanks"
   },
   {
-    "image": "../images/projects/words-i-know.png",
-    "title": "All The Words That I Know",
-    "description": "A simple game to test your vocabulary and your memory, with a little bit of fun. Let's see what are all the words that you know?",
-    "tags": ["opensource", "webdev", "gamedev", "react", "tailwindcss"],
-    "website": "https://pillai.xyz/word-game",
-    "github": "https://github.com/AmruthPillai/All-The-Words-That-I-Know"
+    "image": "../images/projects/lte.jpg",
+    "title": "Less Than Epsilon",
+    "description": "A math/physics blog I created in 2019.",
+    "tags": ["physics", "webdev", "math", "gatsbyjs", "animation"],
+    "website": "https://lessthanepsilon.net"
   },
   {
-    "image": "../images/projects/mutual-fund-calculator.png",
-    "title": "Mutual Fund Calculator",
-    "description": "A mutual fund investment calculator which allows you to track your SIP and Lumpsum investments and using real historical NAV data from AMFI.",
-    "tags": ["opensource", "fintech", "scraping", "python", "angular"],
-    "github": "https://github.com/AmruthPillai/MutualFund-Investment-Calculator"
+    "image": "../images/projects/memes.jpg",
+    "title": "Meme Scraper",
+    "description": "A short meme scraper I wrote to steal physics memes off reddit.",
+    "tags": ["physics", "webdev", "memes"],
+    "website": "https://github.com/zhiihan/meme-scraper/",
+    "github": "https://github.com/zhiihan/meme-scraper/"
   }
 ]

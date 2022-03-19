@@ -36,7 +36,6 @@ const sections = [
   { id: "music", title: "Music", icon: MdMusicNote },
   { id: "resume", title: "Resume", icon: IoIosDocument },
   { id: "contact", title: "Contact", icon: IoIosPaperPlane },
-  { id: "footer", title: "About RotW", icon: FaInfoCircle },
 ];
 
 export default sections;

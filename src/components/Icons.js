@@ -25,6 +25,7 @@ import {
   IoIosMoon,
   IoIosPaperPlane,
   IoIosSunny,
+  IoLogoYoutube,
 } from "react-icons/io";
 import {
   MdLocationOn,
@@ -62,6 +63,7 @@ export {
   IoIosMoon,
   IoIosPaperPlane,
   IoIosSunny,
+  IoLogoYoutube,
   MdLocationOn,
   MdMenu,
   MdMoreHoriz,

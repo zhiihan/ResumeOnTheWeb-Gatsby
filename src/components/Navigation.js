@@ -65,7 +65,7 @@ const Navigation = () => {
         <div className="flex-center cursor-pointer" onClick={scrollToTop}>
           <GatsbyImage
             className="grayscale"
-            alt="Amruth Pillai - Iconmark"
+            alt="Zhi Han"
             image={data.icon.childImageSharp.gatsbyImageData}
           />
         </div>

@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaTwitter,
+  IoLogoYoutube,
 } from "../components/Icons";
 
 const social = [
@@ -36,6 +37,12 @@ const social = [
     icon: FaTwitter,
     link: "https://twitter.com/zhii_han",
     class: "bg-twitter",
+  },
+  {
+    title: "YouTube",
+    icon: IoLogoYoutube,
+    link: "https://www.youtube.com/channel/UC96gK0_weK-rS0GTc88I6ig",
+    class: "bg-youtube",
   },
 ];
 
