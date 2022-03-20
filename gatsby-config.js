@@ -4,7 +4,7 @@ require(`dotenv`).config({ path: `.env` });
 module.exports = {
   siteMetadata: {
     title: `Zhi's Personal Space `,
-    description: `Everyone needs their own little spot on the interwebs, and this is mine. Welcome to my resume, on the web!`,
+    description: `Everyone needs their own little spot on the interwebs, and this is mine.`,
     author: `Zhi Han`,
     siteUrl: `https://zhiihan.com`,
   },
