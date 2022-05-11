@@ -103,10 +103,6 @@ const Hero = () => {
     controls.enableZoom = false;
     controls.enablePan = false;
 
-    if (isMobile) {
-      controls.enabled = false;
-    }
-
     // Animation Loop
     const animate = () => {
       requestAnimationFrame(animate);
