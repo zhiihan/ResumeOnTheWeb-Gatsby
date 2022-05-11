@@ -4,7 +4,7 @@ import { OutboundLink } from "gatsby-plugin-google-gtag";
 import React from "react";
 import Button from "../components/Button";
 import Heading from "../components/Heading";
-import { FaDev, FaGithub, FaLink } from "../components/Icons";
+import { IoIosJournal, FaGithub, FaLink } from "../components/Icons";
 import * as styles from "./Projects.module.css";
 
 const Projects = () => {
@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <Heading icon={FaDev} title="Projects" />
+      <Heading icon={IoIosJournal} title="Projects" />
 
       <div className={styles.container}>
         {data.allProjectsJson.edges.map(({ node }, index) => (
