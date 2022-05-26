@@ -68,6 +68,7 @@ const Hero = () => {
     canvas.style.height = "auto";
     canvas.style.maxWidth = "512px";
     camera.position.setZ(30);
+    canvas.style.pointerEvents = "all";
 
     // Avatar
     const materials = [
@@ -125,11 +126,8 @@ const Hero = () => {
 
   return (
     <section id="hero" className="min-h-screen flex items-center container">
-      <div
-        className="w-full grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0"
-        id="cube"
-      >
-        <div ref={parallaxRef} className="col-span-2">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-5 gap-y-8 lg:gap-16 justify-center lg:justify-start items-center mt-8 md:mt-12 lg:mt-0">
+        <div ref={parallaxRef} className="col-span-2" id="cube">
           <div className="max-w-lg mx-auto" data-depth="0.4">
             <canvas id="photograph" />
           </div>
