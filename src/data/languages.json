@@ -1,17 +1,17 @@
 [
   {
     "language": "English",
-    "text": "I'm pretty fluent in English.",
+    "text": "I grew up in Canada, so I'm pretty fluent in English.",
     "translation": ""
   },
   {
     "language": "Chinese (Mandarin)",
-    "text": "在中国上的小学，很早就会认汉字。",
-    "translation": "I went to elementary school in China, so I knew how to read Chinese characters very early."
+    "text": "欲买桂花同载酒…只可惜故人，何日再见呢？",
+    "translation": "Osmanthus wine tastes the same as I remember... But where are those who share the memory?"
   },
   {
     "language": "Japanese",
-    "text": "私も日本語を自習している。",
-    "translation": "I am also self-studying Japanese."
+    "text": "日本語を教えてください！",
+    "translation": "Please teach me Japanese!"
   }
 ]
