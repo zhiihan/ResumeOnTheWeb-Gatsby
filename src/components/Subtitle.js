@@ -20,9 +20,10 @@ const Subtitle = ({ onDone }) => (
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">Physicist</span>,{" "}
+        <span className="text-red-500">Pianist</span>,{" "}
         <span className="text-red-500">Developer</span>,{" "}
         <span className="text-red-500">Photographer</span>,{" "}
-        <span className="text-red-500">Pianist</span>,{" "}
+
       </div>
       <div className="lg:pl-8">
         <span className="text-red-500">Sugar</span>,{" "}
