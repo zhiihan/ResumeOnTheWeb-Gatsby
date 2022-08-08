@@ -8,7 +8,7 @@ I'm Zhi Hua Han (韩志华), and this is my website. Currently, I am an MSc Phys
 
 My life philosophy is that you should become as powerful as possible by levelling up like in video games. Often you'll meet enemies along the way, but defeating a boss unlocks new rewards, abilities and skills. I believe this concept extends to real life.
 
-In other words, _when you overcome resistance, you absorb its power. The greater the resistance, the greater the power._ Like in games, we should run towards the path with the most difficulty, not the least. This process of snowballing and becoming unstoppable can be both fun and rewarding, which is why I study physics. 
+In other words, _when you overcome resistance, you absorb its power. The greater the resistance, the greater the power._ Like in games, we should run towards the path with the most difficulty, not the least. This process of snowballing and becoming unstoppable can be both fun and rewarding, which is why I study physics. To me, knowledge is power.
 
 $$
 {\begin{aligned}
