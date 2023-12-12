@@ -11,13 +11,13 @@ const social = [
   {
     title: "Instagram",
     icon: FaInstagram,
-    link: "https://www.instagram.com/zhii_han/",
+    link: "https://www.instagram.com/zhii.photo/",
     class: "bg-instagram",
   },
   {
     title: "LinkedIn",
     icon: FaLinkedinIn,
-    link: "https://www.linkedin.com/in/zhii-han/",
+    link: "https://www.linkedin.com/in/zhiihan/",
     class: "bg-linkedin",
   },
   {
