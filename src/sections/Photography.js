@@ -49,7 +49,7 @@ const Photography = () => {
               <FaLink className="absolute" color="#FFF" size="5rem" />
             </div>
             <GatsbyImage
-              alt="Photo from Instagram (@zhii_han)"
+              alt="Photo from Instagram (@zhii.photo)"
               className="absolute inset-0 md:rounded-lg hover:opacity-50 duration-200"
               image={node.localImage.childImageSharp.gatsbyImageData}
             />
@@ -62,7 +62,7 @@ const Photography = () => {
         icon={FaInstagram}
         title="Photos on Instagram"
         onClick={() =>
-          window.open("https://www.instagram.com/zhii_han/", "_blank")
+          window.open("https://www.instagram.com/zhii.photo/", "_blank")
         }
       />
     </section>

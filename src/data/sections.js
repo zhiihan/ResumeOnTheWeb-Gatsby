@@ -29,7 +29,7 @@ const sections = [
   },
   { id: "leadership", title: "Leadership", icon: FaBoxOpen },
   { id: "photography", title: "Photography", icon: AiFillInstagram },
-  { id: "music", title: "Music", icon: MdMusicNote },
+  //{ id: "music", title: "Music", icon: MdMusicNote },
   { id: "resume", title: "Resume", icon: IoIosDocument },
   { id: "contact", title: "Contact", icon: IoIosPaperPlane },
 ];
