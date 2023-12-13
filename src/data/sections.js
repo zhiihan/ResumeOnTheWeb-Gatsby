@@ -3,7 +3,7 @@ import {
   AiFillSafetyCertificate,
   FaAward,
   FaBoxOpen,
-  FaSignLanguage,
+  FaLanguage,
   GoTools,
   IoIosDocument,
   IoIosJournal,
@@ -20,7 +20,7 @@ const sections = [
   { id: "education", title: "Education", icon: MdSchool },
   { id: "skills", title: "Computer Skills", icon: GoTools },
   { id: "projects", title: "Projects", icon: IoIosJournal },
-  { id: "languages", title: "Languages", icon: FaSignLanguage },
+  { id: "languages", title: "Languages", icon: FaLanguage },
   { id: "achievements", title: "Achievements", icon: FaAward },
   {
     id: "certifications",

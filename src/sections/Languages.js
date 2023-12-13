@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Typist from "react-typist";
 import Heading from "../components/Heading";
-import { FaSignLanguage } from "../components/Icons";
+import { FaLanguage } from "../components/Icons";
 import * as styles from "./Languages.module.css";
 
 const Languages = () => {
@@ -24,7 +24,7 @@ const Languages = () => {
 
   return (
     <section id="languages">
-      <Heading icon={FaSignLanguage} title="Languages" />
+      <Heading icon={FaLanguage} title="Languages" />
 
       <div className="h-48 md:h-40 lg:h-32 wow fadeIn">
         <Typist

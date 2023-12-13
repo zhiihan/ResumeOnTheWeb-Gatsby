@@ -14,7 +14,7 @@ import {
   FaLink,
   FaLinkedinIn,
   FaPaintBrush,
-  FaSignLanguage,
+  FaLanguage,
   FaStar,
   FaTwitter,
 } from "react-icons/fa";
@@ -54,7 +54,7 @@ export {
   FaLink,
   FaLinkedinIn,
   FaPaintBrush,
-  FaSignLanguage,
+  FaLanguage,
   FaStar,
   FaTwitter,
   GoTools,
