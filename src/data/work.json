@@ -2,7 +2,23 @@
   {
     "icon": "../images/work/xanadu.png",
     "title": "Xanadu AI",
-    "subtitle": "Intern",
+    "subtitle": "Internship (Mitacs Accelerate)",
+    "period": "Sep 2023 - Dec 2023",
+    "location": "Xanadu HQ - Toronto, Ontario",
+    "specialization": "https://github.com/XanaduAI/flamingpy"
+  },
+  {
+    "icon": "../images/work/aalto.png",
+    "title": "Prof. Alexandru Paler",
+    "subtitle": "Research Internship (Mitacs Globalink)",
+    "period": "May 2023 - Aug 2023",
+    "location": "Aalto University - Helsinki, Finland ",
+    "specialization": "https://github.com/XanaduAI/MrMustard"
+  },
+  {
+    "icon": "../images/work/xanadu.png",
+    "title": "Xanadu AI",
+    "subtitle": "Internship",
     "period": "Aug 2021 - Dec 2021",
     "location": "Remote",
     "specialization": "https://github.com/XanaduAI/MrMustard"
