@@ -9,7 +9,7 @@ import { FaLink, IoIosDocument } from "../components/Icons";
 const Resume = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { eq: "resume/resume.png" }) {
+      file(relativePath: { eq: "resume/resume.jpg" }) {
         childImageSharp {
           gatsbyImageData(width: 600, layout: CONSTRAINED)
         }
