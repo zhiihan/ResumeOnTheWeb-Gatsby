@@ -12,3 +12,5 @@ yarn-error.log
 # Deployment-specific Configs
 .firebase
 .env
+
+refresh.sh

@@ -20,7 +20,6 @@ module.exports = {
       options: {
         trackingIds: [
           process.env.GA_TRACKING_ID, // Google Analytics / GA
-          process.env.GA_UA_ID,
         ],
         pluginConfig: {
           head: true,
