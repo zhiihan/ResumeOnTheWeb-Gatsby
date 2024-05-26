@@ -9,10 +9,7 @@ import * as styles from "./Photography.module.css";
 const Photography = () => {
   const data = useStaticQuery(graphql`
     {
-      allInstagramContent(
-        sort: { fields: [timestamp], order: DESC }
-        limit: 10
-      ) {
+      allInstagramContent(sort: {timestamp: DESC}, limit: 10) {
         edges {
           node {
             id

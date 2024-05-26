@@ -9,10 +9,7 @@ import { FaDev, FaLink, IoIosJournal } from "../components/Icons";
 const Blog = () => {
   const data = useStaticQuery(graphql`
     {
-      allDevArticles(
-        sort: { fields: [article___published_at], order: DESC }
-        limit: 6
-      ) {
+      allDevArticles(sort: {article: {published_at: DESC}}, limit: 6) {
         edges {
           node {
             id
